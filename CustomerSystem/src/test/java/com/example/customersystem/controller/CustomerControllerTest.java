@@ -9,11 +9,6 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class CustomerControllerTest {
-    @Autowired
-    CustomerController controller;
-    @MockBean
-    CustomerService service;
-
     @Before
     public void setup(){
 
